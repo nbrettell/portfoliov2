@@ -1,11 +1,13 @@
 <header role="header" id="main">
-	<section class="row">
-		<div class="logo col-md-3">
+	<section class="row section">
+		<div class="logo col-md-2">
 			<img class="image-logo" alt="{{ page.author }}, Bristol based Web developer" src="/assets/img/portfolio_circle_black.png" />
 		</div>
-		<div class="section-about col-md-9">
+		<div class="section-about col-md-8">
 			<h1 class="name text-huge">{{ page.author }}</h1>
 			<p>{{ page.description }}</p>
 		</div>
+
+		{% include 'partials/nav.njk' %}
 	</section>
 </header>
