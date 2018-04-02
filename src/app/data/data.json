@@ -1,0 +1,16 @@
+{
+  "site": {
+    "name": "Nathan Brettell",
+    "url": "://nathanbrettell.com"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "colour": "red"
+    },
+    {
+      "title": "Contact",
+      "colour": "red"
+    }
+  ]
+}
