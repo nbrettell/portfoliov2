@@ -111,6 +111,7 @@ gulp.task('serve', function() {
 	});
 
 	gulp.watch('src/app/appearance/scss/**/*', ['sass']).on( 'change', browserSync.reload );
+	gulp.watch('src/app/content/*', ['templates:build']).on( 'change', browserSync.reload );
 	gulp.watch('src/app/templates/**/*', ['templates:build']).on( 'change', browserSync.reload );
 	gulp.watch('src/app/assets/images/*', ['images:build']).on( 'change', browserSync.reload );
 });

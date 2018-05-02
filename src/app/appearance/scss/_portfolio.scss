@@ -1,0 +1,28 @@
+nav {
+
+	li {
+		display: inline;
+		margin: 0 1em;
+	}
+
+	a {
+
+		.svg-inline--fa {
+			margin-right: 0.5em;
+		}
+
+		&:before {
+			display: none;
+		}
+
+		&.link-cv {
+			padding-left: 1em;
+
+			&:before {
+				font-family: 'Font Awesome 5 Regular';
+				content: '\f0e0';
+			}
+		}
+	}
+
+}

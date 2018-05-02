@@ -1,4 +1,7 @@
-{% for box in sections %}
-<div class="{{ section.title }}-section {{ section.colour }}">
-</div>
+{% for section in learning %}
+	<div class="{{ section.language|lower }}-section language col-md-5">
+		<h2 class="heading text-medium">{% if loop.first %}Currently Learning{% else %}Up next{% endif %}</h2>
+		<h3 class="language-title text-medium text-gray">{{ section.language }}</h3>
+		<i class="fab fa-{{ section.language|lower }} fa-3x opacity-low text-primary"></i>
+	</div>
 {% endfor %}

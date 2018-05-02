@@ -3,14 +3,14 @@
     "name": "Nathan Brettell",
     "url": "://nathanbrettell.com"
   },
-  "sections": [
+  "learning": [
     {
-      "title": "About",
-      "colour": "red"
+      "title": "Currently Learning",
+      "language": "React"
     },
     {
-      "title": "Contact",
-      "colour": "red"
+      "title": "Up Next...",
+      "language": "VueJS"
     }
   ]
 }
